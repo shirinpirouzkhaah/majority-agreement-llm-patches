@@ -239,4 +239,3 @@ majority-agreement-llm-patches/
             `-- voyage_similarity.py
 ```
 
-The two benchmark directories follow the same overall organization, allowing the experimental pipeline to be reproduced independently for SWE-Bench-Verified and SWE-Bench-Pro.
