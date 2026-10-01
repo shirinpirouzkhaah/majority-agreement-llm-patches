@@ -52,7 +52,7 @@ Scripts/
 
 The sections below describe the scripts corresponding to the main stages of the methodology.
 
-# 1. Building the Prompt from the Benchmark
+# 1. Building the Prompt from the Benchmarks
 
 This part of the replication package corresponds to the methodology described in:
 
