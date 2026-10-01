@@ -14,7 +14,7 @@ The replication package contains the experimental pipeline for the two benchmark
 
 Each benchmark folder in the GitHub repository initially contains the `Scripts/` directory. The benchmark-specific `data/` directory is provided separately through Zenodo as `data.zip`because of its size.
 
-# Downloading the Data: https://zenodo.org/records/23086887
+# Downloading the Data: (https://zenodo.org/records/23087023)
 
 
 Download `data.zip`. The archive contains the data required to reproduce the experimental pipeline for both benchmarks. For each benchmark, the corresponding `data/` directory contains five main folders:
