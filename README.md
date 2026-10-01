@@ -186,7 +186,7 @@ The clustering outputs are stored in the corresponding benchmark's `data/` direc
 
 After downloading and placing the Zenodo data, the replication package should be organized as follows:
 
-
+```
 majority-agreement-llm-patches/
 |-- SWE-Bench-Verified/
 |   |-- data/
@@ -232,6 +232,6 @@ majority-agreement-llm-patches/
             |-- codebleu_similarity.py
             |-- run_all_clustering.sh
             `-- voyage_similarity.py
-
+```
 
 The two benchmark directories follow the same overall organization, allowing the experimental pipeline to be reproduced independently for SWE-Bench-Verified and SWE-Bench-Pro.
