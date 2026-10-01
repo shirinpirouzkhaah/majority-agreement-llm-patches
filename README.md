@@ -18,13 +18,14 @@ Each benchmark folder in the GitHub repository initially contains the `Scripts/`
 
 Download `data.zip`. The archive contains the data required to reproduce the experimental pipeline for both benchmarks. For each benchmark, the corresponding `data/` directory contains five main folders:
 
-
+```
 data/
 ├── clustering_results/
 ├── llm_outputs/
 ├── predictions_from_replacements/
 ├── prompts/
 └── swebench_csv_results/
+```
 
 These folders contain the intermediate and final artifacts produced throughout the study:
 - clustering_results/ contains the similarity and clustering results used for the agreement analyses reported in the paper.
@@ -39,13 +40,14 @@ Move each  `data/` directory into the corresponding benchmark folder in this rep
 
 The `Scripts/` directory of each benchmark contains the following subdirectories:
 
-
+```
 Scripts/
 ├── BuildPrompt_from_Benchmark/
 ├── ClusteringScripts/
 ├── ProcessingReplacements/
 ├── PromptingModels/
 └── Testing/
+```
 
 The sections below describe the scripts corresponding to the main stages of the methodology.
 
@@ -58,7 +60,7 @@ This part of the replication package corresponds to the methodology described in
   
 This directory contains:
 
-```text
+```
 BuildPrompt_from_Benchmark/
 ├── download_swe.py
 └── utilities.py
@@ -79,12 +81,12 @@ This file contains utility functions used by the benchmark-processing and prompt
 
 # 2. Prompting the Models
 
-
+```
 PromptingModels/
 ├── chatgpt_prompting.py
 ├── claudeprompting.py
 └── TogetherAI_prompting.py
-
+```
 
 The prompting scripts contain the model- and provider-specific settings used in the study, including the model identifier, message-role configuration, and maximum output-token setting used when querying each model.
 
@@ -106,9 +108,10 @@ This part of the replication package corresponds to **Section 4.4 — Processing
 
 This directory contains:
 
+```
 ProcessingReplacements/
 ├── make_patch_from_replacement.py
-
+```
 
 ## `make_patch_from_replacement.py`
 
@@ -125,10 +128,10 @@ This part of the replication package corresponds to **Section 4.5 — Candidate 
 
 This directory contains:
 
-
+```
 Testing/
 └── llm_fix_evaluation_swebench_parallel.py
-
+```
 
 The testing script evaluates the candidate patches using the corresponding SWE-bench evaluation procedure.
 
@@ -147,6 +150,7 @@ This part of the replication package corresponds to the methodology described in
 
 This directory contains six files:
 
+```
 ClusteringScripts/
 ├── bleu_similarity.py
 ├── clustering_analysis_revised.py
@@ -154,7 +158,7 @@ ClusteringScripts/
 ├── codebleu_similarity.py
 ├── run_all_clustering.sh
 └── voyage_similarity.py
-
+```
 
 These scripts implement the similarity computation and clustering analyses used in the study.
 
