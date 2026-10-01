@@ -1,7 +1,4 @@
 # majority-agreement-llm-patches
-Replication package for the study "Can Majority Agreement Indicate Correctness? Oracle-Free Assessment of LLM-Generated Patches for GitHub Issues"
-
-# Replication Package
 
 This repository contains the replication package for the paper:
 
